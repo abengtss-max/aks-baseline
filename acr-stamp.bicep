@@ -24,7 +24,7 @@ param targetVnetResourceId string
   'southeastasia'
 ])
 @description('AKS Service, Node Pool, and supporting services (KeyVault, App Gateway, etc) region. This needs to be the same region as the vnet provided in these parameters.')
-param location string = 'eastus2'
+param location string = 'northeurope'
 
 @allowed([
   'australiasoutheast'
